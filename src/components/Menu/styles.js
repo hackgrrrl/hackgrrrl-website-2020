@@ -12,13 +12,25 @@ export const Container = styled.div`
   background-color: #101111;
 `
 
-export const Division = styled.div`
+export const RightDivision = styled.div`
   flex: 2;
   margin: 24px;
   text-align: right;
 `
 
+export const LeftDivision = styled.div`
+  flex: 2;
+  text-align: left;
+`
+
 export const Item = styled.div`
   flex: 1;
   margin: 24px;
+`;
+
+export const Logo = styled.img`
+  height: 64px;
+  width: auto;
+  align-content: left;
+  padding: 5px;
 `;

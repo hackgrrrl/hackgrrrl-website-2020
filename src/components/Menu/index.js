@@ -1,10 +1,13 @@
 import React from 'react';
-import {Container, Item, Division} from './styles';
+import {Container, Item, LeftDivision, RightDivision, Logo} from './styles';
+import logo from '../../assets/images/icon_pc@2x.png';
 
 function Header(){
   return(
     <Container>
-      <Division></Division>
+      <LeftDivision>
+      <Logo src={logo} alt='hack grrrl'/>
+      </LeftDivision>
       <Item>
         o que é
       </Item>
@@ -17,9 +20,9 @@ function Header(){
       <Item>
         edição 2020
       </Item>
-      <Division>
+      <RightDivision>
         fale conosco
-      </Division>
+      </RightDivision>
     </Container>
   );
 }
